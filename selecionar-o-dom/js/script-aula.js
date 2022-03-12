@@ -1,18 +1,17 @@
 const animais = document.getElementById('animais');
-console.log(animais);
+console.log(animais); 
 
 const gridSection = document.getElementsByClassName('grid-section');
-console.log(gridSection[0]);
+console.log(gridSection[0]); //getElementByClassName - verifica todo o doc e retorna todos os filhos, neste caso, só o primeiro
 
-const primeiraLi = document.querySelector('li');
+const primeiraLi = document.querySelector('li'); //retorna o primeiro elemento
 console.log(primeiraLi);
 
 const primeiraUl = document.querySelector('ul');
 console.log(primeiraUl);
 
-const linkInterno = document.querySelector('[href^="#"]');
+const linkInterno = document.querySelector('[href^="#"]'); //retorna o primeiro elemento, porém especifico com o ^
 console.log(linkInterno);
-/*video parei em 10:45*/
 
 const animaisImg = document.querySelectorAll('.animais img');
 console.log(animaisImg);
