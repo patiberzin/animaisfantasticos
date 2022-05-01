@@ -2,17 +2,6 @@
 
 // Quando o usuário clicar nos links internos do site, adicione a classe ativo ao item clicado e remova dos demais itens caso eles possuam a mesma. Previna o comportamento padrão desses links
 
-//MINHA VISÃO SOBRE ISSO:
-//primeiro selecionar os links internos do site: const, .getSelectionAll e o caminho
-//vai ocorrer um evento, que é o clique nos links internos: então, para cada clique: ou seja, forEach()
-//depois do evento eu quero que adicione a class ativo: .add('ativo')
-//e quero que remova dos demais itens: .remove('ativo')
-//e ainda vou prevenir o comportamento: .preventDefault()
-//não necessariamente nessa ordem
-//adicionar a classe exatamente ao item clicado: .currentTarget
-//ativo é uma classe que estamos adicionando ou removendo, então usamos o classList
-
-//porém o meu está igual ao dele e não deu certo
 
 const linksInternos = document.querySelectorAll('a[href^="#"]'); //link interno começa com #
 
